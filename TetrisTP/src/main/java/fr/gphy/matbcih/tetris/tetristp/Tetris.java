@@ -32,16 +32,16 @@ public class Tetris extends Applet {
     public final static byte COLUMNS = 10;
     public final static int EMPTY = -1;
     public final static int EMPTY3 = -2;
-    public final static int DELETED_ROWS_PER_LEVEL = 5;
+    public final static int DELETED_ROWS_PER_LEVEL = 4;
 
     public final static Color PIECE_COLORS[] = {
-        new Color(0xFF00FF),
+        new Color(0xFF00FF), // fucia
         new Color(0xDC143C),
         new Color(0x00CED1),
         new Color(0xFFD700),
         new Color(0x32CD32),
         new Color(0x008080),
-        new Color(0xFFA500)// fucia
+        new Color(0xFFA500)
     };
     //TODO : Ajouter des couleurs aux pieces, les données exadecimales vous sont fournies.
     
